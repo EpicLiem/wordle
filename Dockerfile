@@ -1,5 +1,6 @@
-# Use the official Python 3.12 image as the base
-FROM python:3.12
+# way too many hard-coded values for this to be useful as a docker container
+# Use the official Python 3.13 image as the base
+FROM python:3.13
 
 # Set the working directory in the container
 WORKDIR /wordlebot
