@@ -230,7 +230,7 @@ def run_tests(test_words, words_file, initial_guess_options=None):
 
 
 def main_tests():
-    words_file = "FiveLetterWords.txt"
+    words_file = "fiveLetterWords.txt"
     solver = WordleSolver(words_file)
     test_words = solver.words[:500]  # Adjust as needed
     initial_guess_options = ['raise', 'slate', 'crane', 'crate', 'slant']  # Example initial guesses
@@ -238,7 +238,7 @@ def main_tests():
 
 
 if __name__ == "__main__":
-    words_file = "FiveLetterWords.txt"
+    words_file = "fiveLetterWords.txt"
     solver = WordleSolver(words_file)
     solver.reset()
     initial_guess_options = ['cable']  # Your list of options
